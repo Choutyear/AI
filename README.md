@@ -82,17 +82,16 @@
 3. `python -m ipykernel install --user --name=your_env_name`将环境写入notebook的kernel中
 4. 在Jupyter Notebook中打开即可
 
-**Jupyter Notebook快捷键**
-shift + 回车 运行这行代码块并跳到下一个代码块
-ctrl + 回车 运行这行代码块
-alt + 回车 运行这行代码块并新建一个代码块
-esc + 编辑模式 命令模式（蓝色）
-回车 + 命令模式 编辑模式（绿色）
-M markdown
-X + 命令模式 剪切
-L+ 命令模式
-shift + v 
-H 查看所有快捷键
-A 
-B 在选中代码块的下方创建代码块
-D 
+<br/>
+**Jupyter Notebook的快捷键**
+
+* 命令行模式（蓝色）（按`Esc`生效）
+  * `Shift-Enter`: 运行代码块, 选择下面的代码块
+  * `Ctrl-Enter`: 运行选中的代码块
+  * `Alt-Enter`: 运行代码块并且在下面插入代码块
+  * `M`: 把代码块变成 Markdown
+  * `A`: 在上面插入代码块
+  * `B`: 在下面插入代码块
+  * 
+
+* 编辑模式（绿色）（按`Enter`生效）
