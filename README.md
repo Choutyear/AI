@@ -1,10 +1,5 @@
 # Artificial-Intelligence
-
-## Anaconda
-
-
-
-**安装Anaconda**
+### 安装Anaconda
 
 1. 下载Anaconda   
 
@@ -46,7 +41,7 @@
 
 <br/>
 
-**Anaconda创建虚拟环境**
+### Anaconda创建虚拟环境 
 
 > 在进入虚拟环境后，进行的操作，都仅和当前虚拟环境有关，与base环境无关
 
@@ -61,30 +56,30 @@
 6. 其他操作
 
    * 删除虚拟环境
-
    * 删除环境中的某个包
-
    * 在虚拟环境中安装包：在进入虚拟环境的前提下，直接使用pip安装   
    * `pip install numpy==1.16.4`
-
    * `pip install tensorflow==1.12.0`
-
    * `pip install keras==2.2.4`    
+   * `pip install matplotlib==2.2.2`
+   * `pip install scikit-learn==0.21.0`
 
 
 
 <br/>
 
-**Jupyter Notebook中使用创建的虚拟环境**
+### Jupyter Notebook中使用创建的虚拟环境
 
 1. `activate myenv`进入环境
 2. `source activate your_env_name`
 3. `python -m ipykernel install --user --name=your_env_name`将环境写入notebook的kernel中
 4. 在Jupyter Notebook中打开即可
 
+
+
 <br/>
 
-**Jupyter Notebook的快捷键**
+### Jupyter Notebook的快捷键
 
 * 命令行模式（蓝色）（按`Esc`生效）
   * `Shift-Enter`: 运行代码块, 选择下面的代码块
@@ -94,5 +89,20 @@
   * `A`: 在上面插入代码块
   * `B`: 在下面插入代码块
   * 
-
 * 编辑模式（绿色）（按`Enter`生效）
+
+
+
+<br/>
+
+## 常用函数
+
+
+
+### Matplotlib
+
+
+
+
+
+
