@@ -23,7 +23,7 @@
 
    在cmd中输入`python`检验是否有python环境
 
-   > 在进入python环境后，需要退出python环境再进行下面的步骤。
+   > 在进入python环境后，需要退出python环境再进行下面的步骤。`Ctrl`+`D`
 
    在cmd中输入`conda --version`查看conda版本
 
