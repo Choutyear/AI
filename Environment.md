@@ -95,7 +95,9 @@
 
 <br/>
 
+### 常见问题
 
+Python使用：文件必须导入到Python.exe文件所在目录下才能直接import，如果不知道目录，可以先`import sys`,再`print(sys.path)`来查看路径
 
 
 
