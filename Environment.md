@@ -48,27 +48,24 @@
 1. `conda env list`查看当前存在哪些环境
 2. `conda create -n your_env_name python=x.x` 创建指定版本的Python环境（your_env_name为自己的虚拟环境名）
 3. `activate your_env_name`激活虚拟环境
-
 4. `conda deactivate`关闭虚拟环境
-
-5. `pip list`查看已经安装的库
-
+5. `pip list`或者`conda list`查看已经安装的库
 6. 其他操作
 
    * 删除虚拟环境
    * 删除环境中的某个包
-   * 在虚拟环境中安装包：在进入虚拟环境的前提下，直接使用pip安装   
-   * `pip install numpy==1.16.4`
-   * `pip install tensorflow==1.12.0`
-   * `pip install keras==2.2.4`    
-   * `pip install matplotlib==2.2.2`
-   * `pip install scikit-learn==0.21.0`
+   * 在虚拟环境中安装包：在进入虚拟环境的前提下，可以直接使用pip安装也可以使用conda安装  
+   * `pip install numpy==1.16.4`或者``
+   * `pip install tensorflow==1.12.0`或者``
+   * `pip install keras==2.2.4`或者``
+   * `pip install matplotlib==2.2.2`或者``
+   * `pip install scikit-learn==0.21.0`或者``
 
 
 
 <br/>
 
-### Jupyter Notebook中使用创建的虚拟环境
+### Jupyter Notebook中使用创建好的虚拟环境
 
 1. `activate myenv`进入环境
 2. `source activate your_env_name`
