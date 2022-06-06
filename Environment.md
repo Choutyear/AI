@@ -52,14 +52,17 @@
 5. `pip list`或者`conda list`查看已经安装的库
 6. 其他操作
 
-   * 删除虚拟环境
-   * 删除环境中的某个包
+   * 查看当前环境的包`conda list`或者`pip list`
+   * 删除虚拟环境`conda remove -n your_env_name --all`
+   * 删除环境中的某个包`pip uninstall numpy`
    * 在虚拟环境中安装包：在进入虚拟环境的前提下，可以直接使用pip安装也可以使用conda安装  
-   * `pip install numpy==1.16.4`或者``
-   * `pip install tensorflow==1.12.0`或者``
-   * `pip install keras==2.2.4`或者``
-   * `pip install matplotlib==2.2.2`或者``
-   * `pip install scikit-learn==0.21.0`或者``
+```
+   pip install numpy==1.16.4 //或者`conda install numpy==1.16.4`
+   pip install tensorflow==1.12.0
+   pip install keras==2.2.4
+   pip install matplotlib==2.2.2
+   pip install scikit-learn==0.21.0
+```
 
 
 
@@ -67,11 +70,12 @@
 
 ### Jupyter Notebook中使用创建好的虚拟环境
 
-1. `activate myenv`进入环境
-2. `source activate your_env_name`
-3. `python -m ipykernel install --user --name=your_env_name`将环境写入notebook的kernel中
+1. `activate your_env_name`进入环境
+2. `conda install ipykernel`安装ipykernel
+3. `python -m ipykernel install --user --name your_env_name --display-name your_env_name`将环境写入notebook的kernel中
+>`--display-name your_env_name`可有可无
 4. 在Jupyter Notebook中打开即可
-
+>此时好像不能直接输入命令打开，自己手动在Anaconda里打开就行了
 
 
 <br/>
