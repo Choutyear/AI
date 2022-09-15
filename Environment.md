@@ -63,7 +63,7 @@
    pip install matplotlib==2.2.2
    pip install scikit-learn==0.21.0
 ```
-
+`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`永久更改清华源
 
 
 <br/>
