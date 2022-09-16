@@ -106,7 +106,7 @@
 
 1. `cd..`退回至根目录
 2. `d:`选择D盘
-3. `D:\workdata\handson-ml2`输入文件位置
+3. `cd D:\workdata\handson-ml2`输入文件位置
 4. `conda activate tf2`在该位置进入虚拟环境
 5. `jupyter notebook`开始运行
 
