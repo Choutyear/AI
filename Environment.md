@@ -102,6 +102,15 @@
 2. 在删除虚拟环境后，jupyter的kernel有可能不会被删除，这时需要以管理员身份运行`Anaconda Prompt`，然后查看所有内核`jupyter kernelspec list`，最后删除`jupyter kernelspec remove kernel_name`
 
 
+### 书后资源进入
+
+1. `cd..`退回至根目录
+2. `d:`选择D盘
+3. `D:\workdata\handson-ml2`输入文件位置
+4. `conda activate tf2`在该位置进入虚拟环境
+5. `jupyter notebook`开始运行
+
+
 
 
 
