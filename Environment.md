@@ -64,6 +64,7 @@
    pip install scikit-learn==0.21.0
 ```
 `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`永久更改清华源
+`pip.ini`删除该文件即可恢复默认源
 
 
 <br/>
@@ -101,6 +102,11 @@
 1. Python使用：文件必须导入到Python.exe文件所在目录下才能直接import，如果不知道目录，可以先`import sys`,再`print(sys.path)`来查看路径
 2. 在删除虚拟环境后，jupyter的kernel有可能不会被删除，这时需要以管理员身份运行`Anaconda Prompt`，然后查看所有内核`jupyter kernelspec list`，最后删除`jupyter kernelspec remove kernel_name`
 
+### 安装pytorch
+
+1. `nvidia-smi`查看cuda版本
+2. 进入pytorch官网，选择对应版本
+3. 千万不要在清华源安装！！！
 
 ### 书后资源进入
 
