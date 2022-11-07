@@ -93,8 +93,6 @@
   * 
 * 编辑模式（绿色）（按`Enter`生效）
 
-
-
 <br/>
 
 ### 常见问题
@@ -102,11 +100,22 @@
 1. Python使用：文件必须导入到Python.exe文件所在目录下才能直接import，如果不知道目录，可以先`import sys`,再`print(sys.path)`来查看路径
 2. 在删除虚拟环境后，jupyter的kernel有可能不会被删除，这时需要以管理员身份运行`Anaconda Prompt`，然后查看所有内核`jupyter kernelspec list`，最后删除`jupyter kernelspec remove kernel_name`
 
+<br/>
+
 ### 安装pytorch
 
 1. `nvidia-smi`查看cuda版本
 2. 进入pytorch官网，选择对应版本
 3. 千万不要在清华源安装！！！
+
+<br/>
+
+检测是否安装成功：
+1. anaconda虚拟环境下输入`python`
+2. 输入`import torch`
+3. 输入`print(torch.cuda.is_available())`
+
+<br/>
 
 ### 书后资源进入
 
